@@ -1,0 +1,122 @@
+/*responsive styling*/
+@media (max-width: 480px) {
+    .iphoneContainer {
+      width: 90%;
+      height: auto;
+      margin: 15px auto;
+      padding-bottom: 20px;
+    }
+  
+    .searchBar form {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    #cityInput {
+      width: 90%;
+      margin-bottom: 10px;
+    }
+  
+    .searchBtn {
+      width: 50%;
+    }
+  
+    .changableIcon {
+      width: 80px;
+      height: 80px;
+    }
+  
+    .degree h2, .description h3 {
+      font-size: 1.2rem;
+    }
+  }
+
+body {
+    background-image: url(/img/bigBG.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.iphoneContainer {
+    width: 400px;
+    height: 560px;
+    border: 1px solid red;
+    margin: 25px auto;
+    background: radial-gradient(#a0ccc3,#071724);
+    border-radius: 15px;
+}
+.container {
+    padding: 15px;
+}
+.nav {
+    display: flex;
+    justify-content:first baseline;
+}
+.icon {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url(/img/sunBlack.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+};    
+.weatherTitle {
+    font-family: serif;
+    font-weight:100
+}
+.weatherTitle h3 {
+    padding: 0;
+    margin: 0;
+    margin-right: 5px;
+    font-weight: 500;
+}
+.searchBar form{
+    display: flex;
+    justify-content: center;
+}
+#cityInput {
+    padding: 10px 5px;
+    margin-top: 20px;
+    border-radius: 15px;
+    text-align: center;
+    font-family: arial;
+}
+.iconSearch {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    background-image: url(/img/searchBlack.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.searchBtn {
+    border-radius: 15px;
+    background-color: #fff;
+}
+.location {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.changableIcon {
+    width: 108px;
+    height: 108px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    margin: 0 auto;
+}
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.bigIcon {
+   margin-top: 30px;
+   margin-bottom: 30px;
+}
+.degree , .description  {
+    text-align: center;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="icon" href="/img/weather-app.png" type="image/png">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    
+ <div class="iphoneContainer">
+   <div class="container">
+    <div class="nav">
+        <div class="weatherTitle"><h3>Weatheriyyy</h3></div>
+        <div class="weatherIcon">
+            <i class="icon"></i>
+        </div>
+    </div>
+    <div class="searchBar">
+        <form>
+            <input type="search" id="cityInput" placeholder="Search for a city..." name="city">
+           <div class="location"><button type="submit" class="searchBtn"><i class="iconSearch"></i></button></div>  
+        </form>
+    </div>
+    <div class="content">
+        <div class="bigIcon">
+            <div class="changableIcon"></div>
+        </div>
+        <div class="degree">
+            <h2 id="trgDegree">Welcome</h2>
+        </div>
+        <div class="description">
+            <h3 id="trgDescription">Lets start...</h3>
+        </div>
+    </div>
+   </div>
+ </div>
+
+    <script src="/js/script.js"></script>
+</body>
+</html>
