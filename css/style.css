@@ -1,4 +1,4 @@
-/*responsive styling*/
+/*responsive styling for mobile*/
 @media (max-width: 480px) {
     .iphoneContainer {
       width: 90%;
