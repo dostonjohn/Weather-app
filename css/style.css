@@ -32,7 +32,7 @@
   }
 
 body {
-    background-image: url(img/bigBG.png);
+    background-image: url(../img/bigBG.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
