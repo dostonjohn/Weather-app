@@ -56,7 +56,7 @@ body {
     display: inline-block;
     width: 24px;
     height: 24px;
-    background-image: url(img/sunBlack.png);
+    background-image: url("../img/sunBlack.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -86,7 +86,7 @@ body {
     display: inline-block;
     width: 36px;
     height: 36px;
-    background-image: url(img/searchBlack.png);
+    background-image: url("../img/searchBlack.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
